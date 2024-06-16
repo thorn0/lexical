@@ -123,10 +123,10 @@ export default function ImageResizer({
 
   const setEndCursor = () => {
     if (editorRootElement !== null) {
-      editorRootElement.style.setProperty('cursor', 'text');
+      editorRootElement.style.setProperty('cursor', '');
     }
     if (document.body !== null) {
-      document.body.style.setProperty('cursor', 'default');
+      document.body.style.setProperty('cursor', '');
       document.body.style.setProperty(
         '-webkit-user-select',
         userSelect.current.value,
